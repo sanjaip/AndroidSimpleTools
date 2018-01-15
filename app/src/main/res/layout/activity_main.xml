@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.brainfeaster.sanneo.simpletools.MainActivity">
+       <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SET ALARM"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:scrollbars="horizontal">
+
+                    <TableLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <TableRow>
+
+                            <CalendarView
+                                android:id="@+id/calendarView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TimePicker
+                                android:id="@+id/timePicker"
+                                android:layout_width="311dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="20dp"
+                                android:scaleX="1"
+                                android:scaleY="1"
+                                android:timePickerMode="clock" />
+
+                            <ScrollView
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="20dp"
+                                android:scrollbars="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_margin="20dp"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:background="#00f"
+                                        android:text="London"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp"
+                                        android:tag="1"
+                                        android:onClick="myFancyMethod" />
+
+                                    <Button
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="20dp"
+                                        android:background="#00f"
+                                        android:text="India"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp"
+                                        android:tag="2"
+                                        android:onClick="myFancyMethod" />
+
+                                    <Button
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="20dp"
+                                        android:background="#00f"
+                                        android:text="CT USA"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp"
+                                        android:tag="3"
+                                        android:onClick="myFancyMethod" />
+
+                                    <Button
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="20dp"
+                                        android:background="#00f"
+                                        android:text="EST USA"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp"
+                                        android:tag="4"
+                                        android:onClick="myFancyMethod" />
+
+                                    <Button
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="20dp"
+                                        android:background="#00f"
+                                        android:text="TBD"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp"
+                                        android:tag="5"
+                                        android:onClick="myFancyMethod" />
+
+                                    <Button
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="20dp"
+                                        android:background="#00f"
+                                        android:text="TBD"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp"
+                                        android:tag="6"
+                                        android:onClick="myFancyMethod" />
+
+                                    <Button
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="20dp"
+                                        android:background="#00f"
+                                        android:text="TBD"
+                                        android:textColor="#ff9"
+                                        android:textSize="20sp"
+                                        android:tag="6"
+                                        android:onClick="myFancyMethod" />
+
+                                    <Button
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="20dp"
+                                        android:background="#00f"
+                                        android:text="TBD"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp"
+                                        android:tag="7"
+                                        android:onClick="myFancyMethod" />
+
+                                    <Button
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="20dp"
+                                        android:background="#00f"
+                                        android:text="TBD"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp"
+                                        android:tag="8"
+                                        android:onClick="myFancyMethod" />
+
+                                    <Button
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="20dp"
+                                        android:background="#00f"
+                                        android:text="TBD"
+                                        android:textColor="#fff"
+                                        android:textSize="20sp"
+                                        android:tag="-5.5"
+                                        android:onClick="myFancyMethod" />
+
+                                </LinearLayout>
+
+                            </ScrollView>
+
+
+                        </TableRow>
+                    </TableLayout>
+                </HorizontalScrollView>
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:weightSum="4"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/txtDate"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+
+                    android:text="Select Date"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txArrow1"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:text=">>"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtTime"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Select Time"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txArrow2"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:text=">>"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtTimeZone"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Select timeZone"
+                    android:layout_marginLeft="20dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

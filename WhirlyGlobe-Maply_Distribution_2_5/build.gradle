@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('WhirlyGlobe-Maply_Distribution_2_5.aar'))

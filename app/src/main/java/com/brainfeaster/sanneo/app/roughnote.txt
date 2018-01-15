@@ -1,0 +1,127 @@
+
+
+
+
+https://christinecha.github.io/3d-css-cubes/
+\\loksabha members
+http://164.100.47.193/android_rssfeed_ls/all_members.aspx
+
+
+
+<Sno>1</Sno>
+<MPCode><![CDATA[1929]]></MPCode>
+<MemberName><![CDATA[Abdul Wahab,Shri]]></MemberName>
+<Gender><![CDATA[Male]]></Gender>
+<Party><![CDATA[IUML]]></Party>
+<Partyname><![CDATA[Indian Union Muslim League]]></Partyname>
+<State><![CDATA[KR]]></State>
+<stateName><![CDATA[Kerala]]></stateName>
+<PermanentAddress><![CDATA[Peevees Mirage, Nilambur P.O., Malappuram District, Kerala. 679329]]></PermanentAddress>
+<Permanentphone><![CDATA[04931-220542, fax:04931-221988 M:09847020911]]></Permanentphone>
+<LocalAddress><![CDATA[402- SWAJAS Deluxe, Dr. B.D. Marg, New Delhi 110001]]></LocalAddress>
+<Localphone><![CDATA[23319163, 21430553, Mobile 9013181677, 9868181280]]></Localphone>
+<EmailID><![CDATA[wahab.pv@sansad.nic.in]]></EmailID>
+
+
+https://en.wikipedia.org/api/rest_v1/feed/onthisday/events/08/26
+https://data.gov.in/help/how-use-datasets-apis
+http://164.100.47.193/android_rssfeed_ls/code.aspx?code=member
+http://censusindia.gov.in/pca/cdb_pca_census/cd_block.html
+http://www.censusindia.gov.in/2011census/population_enumeration.html
+view-source:http://164.100.47.5/AndroidFeeds/member_biography.aspx?member_id=251
+http://164.100.47.5/AndroidFeeds/member_biography.aspx?member_id=11
+view-source:http://164.100.47.5/AndroidFeeds/MemberRss.aspx
+https://data.gov.in/sector/lok-sabha-0?page=3
+
+https://stackoverflow.com/questions/2989284/what-is-the-max-size-of-localstorage-values
+function gen(n) {
+    return new Array((n * 1024) + 1).join('a')
+}
+
+// Determine size of localStorage if it's not set
+if (!localStorage.getItem('size')) {
+    var i = 0;
+    try {
+        // Test up to 10 MB
+        for (i = 0; i <= 10000; i += 250) {
+            localStorage.setItem('test', gen(i));
+        }
+    } catch (e) {
+        localStorage.removeItem('test');
+        localStorage.setItem('size', i ? i - 250 : 0);
+
+    }
+}
+
+
+var el = document.getElementById('size');
+el.innerHTML = localStorage.getItem('size');
+
+
+
+   //This place is kind of main class for this app. Everything happens from here.
+
+            //1. Communication channel between webview and android like server and client
+            //step 1: javascript sends a request
+          RSMBusiness curBus = new RSMBusiness();
+           // curBus.getDataFromService(_DBConnect);
+
+           String str = curBus.getDataFromSQL(_DBConnect);
+            List<String> dividedResponse = JSProtocol.doRespond(str);
+            int noOfbits = dividedResponse.size();
+            boolean isNew = true;
+            int currBit = 1;
+            for (String iStr: dividedResponse) {
+                /*if(isNew){
+                    isNew = false;
+                   // Log.d("call before","javascript:collectResponseBits('"+iStr+"',"+noOfbits+",true)");
+                    view.loadUrl("javascript:collectResponseBits('"+iStr+"',14,"+currBit+",123)");
+                    currBit++;
+                }
+                else{
+                   // Log.d("call recurrece","javascript:collectResponseBits('"+iStr+"',"+noOfbits+",false)");
+                    view.loadUrl("javascript:collectResponseBits('"+iStr+"',14,"+currBit+",321)");
+                    currBit++;
+                }*/
+
+              //  view.loadUrl("javascript:collectResponseBits('"+iStr+"')");
+
+                //view.loadUrl("javascript:sayBaba()");
+            }
+
+
+            https://github.com/amitshekhariitbhu
+
+
+{"Books":"-","CountryVisite":"Widely travelled (more than 60 countries)","DOB":"25 December 1959","DateOfMarriage":"16 May 1992","EducatQualification":"Under Graduate\rEducated at Siddharth College, Mumbai","EmailID":"N\/A","FatherName":"Shri Bandu Bapu Athawale","FavouritePasstime":"Cricket, volleyball, football, kho-kho, kabaddi and carom; reading, travelling, music, discussion on social and economic problems; Founder, Chairman and President, Republican Party of India","Freedom":"No","LocalAddress":"102, New Maharashtra Sadan, Kasturba Gandhi Marg, New Delhi  Tel. - 23380328","MPCode":"2248","MaritalStatus":"Married on 16 May 1992","MemberName":"Athawale,Shri Ramdas","MotherName":"Shrimati Honsabai Bandu Athawale","NoOfChildren":"One son","OtherInfo":"Was President, (i) Republican Party of India, 1998, (ii) Republican Employees Federation and (iii) Municipal Majdur Sangh;  Founder, Chairman and President, Republic Party of India (A)","Partyname":"Republican Party of India (A)","PermanentAddress":"647, ''''Savindhan'''' Gandhi Nagar, Near. Guru Nanak Hospital, Bandra (East),Mumbai400051  Tel. - {022} 26455164, 22656099, Mobile: 09004809627","PlaceOfBirth":"Agalgaon, Distt. Sangli (Maharashtra)","PositionHeld":"1990 ? 96\tMember, Maharashtra Legislative Council\r\n1990 ? 95\tCabinet Minister, Social Welfare and Transport, Employment Guarantee Scheme and Prohibition Propaganda, Government of Maharashtra\r\n1998 ? 99\tMember, Twelfth Lok Sabha\r\n1998 ? 99\tMember, Committee on Transport and Tourism\r\n\tMember, Consultative Committee for the Ministry of Industry\r\n1999 ? 2000\tMember, Committee on Industry\r\n1999 ? 2004\tMember, Thirteenth Lok Sabha ( second term)\r\n2002 ? 2004\tMember, Consultative Committee for the Ministry of Youth Affairs and Sports\r\n2004 ? 2009\tMember, Fourteenth Lok Sabha (third term)\r\n2004\tMember, Committee on Transport, Tourism and Culture\r\nApril 2014\tElected to Rajya Sabha\r\nAug. 2014 ? April 2016\tMember, Committee on the Welfare of Scheduled Castes and Scheduled Tribes\r\nSept. 2014  ? July 2016\tMember, Committee on Industry\r\nDec. 2015  ? July 2016\tMember, Select Committee of Rajya Sabha on the Prevention of Corruption (Amendment) Bill, 2013\r\nMarch 2016  ? May 2016\tMember, Select Committee of Rajya Sabha on the Enemy Property (Amendment and Validation) Bill, 2016\r\n5 July 2016 onwards\tMinister of State in the Ministry of Social Justice and Empowerment","Profession":"Political and Social Worker, Industrial Worker\/Trade Unionist, Journalist\/Writer, Publisher and Sportsperson","SocialActivity":"Was Editor, Bhumika (Weekly Magazine), Mumbai; Publisher, Parivartan Publications; Founder Member, Parivartan Sahitya Mahamandal; President, (i) Parivartan Kala Mahasangha, (ii) Dr. Babasaheb Ambedkar Foundation and (iii) Buddhist Kalawant Academy; Founder President, Budh Dhamma Parishad; works for upliftment of the handicapped, dalit, poor and weaker sections;  Played title role in a Marathi film ?Anya Yacha Pratikar? and a small role in another Marathi film ?Joshi ki Kamble?; played a role in a Marathi drama ?Ekach Pyala? and other Marathi dramas","SpouseName":"Shrimati Seema  Ramdas Athawale","id":"0","stateName":"Maharashtra","$change":"null","serialVersionUID":"-5756901754594252462"}
+
+
+{
+	"Books": "-",
+	"CountryVisite": "Widely travelled (more than 60 countries)",
+	"DOB": "25 December 1959",
+	"DateOfMarriage": "16 May 1992",
+	"EducatQualification": "Under Graduate\rEducated at Siddharth College, Mumbai",
+	"EmailID": "N\/A",
+	"FatherName": "Shri Bandu Bapu Athawale",
+	"FavouritePasstime": "Cricket, volleyball, football, kho-kho, kabaddi and carom; reading, travelling, music, discussion on social and economic problems; Founder, Chairman and President, Republican Party of India",
+	"Freedom": "No",
+	"LocalAddress": "102, New Maharashtra Sadan, Kasturba Gandhi Marg, New Delhi  Tel. - 23380328",
+	"MPCode": "2248",
+	"MaritalStatus": "Married on 16 May 1992",
+	"MemberName": "Athawale,Shri Ramdas",
+	"MotherName": "Shrimati Honsabai Bandu Athawale",
+	"NoOfChildren": "One son",
+	"OtherInfo": "Was President, (i) Republican Party of India, 1998, (ii) Republican Employees Federation and (iii) Municipal Majdur Sangh;  Founder, Chairman and President, Republic Party of India (A)",
+	"Partyname": "Republican Party of India (A)",
+	"PermanentAddress": "647, ''''Savindhan'''' Gandhi Nagar, Near. Guru Nanak Hospital, Bandra (East),Mumbai400051  Tel. - {022} 26455164, 22656099, Mobile: 09004809627",
+	"PlaceOfBirth": "Agalgaon, Distt. Sangli (Maharashtra)",
+	"PositionHeld": "1990 ? 96\tMember, Maharashtra Legislative Council\r\n1990 ? 95\tCabinet Minister, Social Welfare and Transport, Employment Guarantee Scheme and Prohibition Propaganda, Government of Maharashtra\r\n1998 ? 99\tMember, Twelfth Lok Sabha\r\n1998 ? 99\tMember, Committee on Transport and Tourism\r\n\tMember, Consultative Committee for the Ministry of Industry\r\n1999 ? 2000\tMember, Committee on Industry\r\n1999 ? 2004\tMember, Thirteenth Lok Sabha ( second term)\r\n2002 ? 2004\tMember, Consultative Committee for the Ministry of Youth Affairs and Sports\r\n2004 ? 2009\tMember, Fourteenth Lok Sabha (third term)\r\n2004\tMember, Committee on Transport, Tourism and Culture\r\nApril 2014\tElected to Rajya Sabha\r\nAug. 2014 ? April 2016\tMember, Committee on the Welfare of Scheduled Castes and Scheduled Tribes\r\nSept. 2014  ? July 2016\tMember, Committee on Industry\r\nDec. 2015  ? July 2016\tMember, Select Committee of Rajya Sabha on the Prevention of Corruption (Amendment) Bill, 2013\r\nMarch 2016  ? May 2016\tMember, Select Committee of Rajya Sabha on the Enemy Property (Amendment and Validation) Bill, 2016\r\n5 July 2016 onwards\tMinister of State in the Ministry of Social Justice and Empowerment",
+	"Profession": "Political and Social Worker, Industrial Worker\/Trade Unionist, Journalist\/Writer, Publisher and Sportsperson",
+	"SocialActivity": "Was Editor, Bhumika (Weekly Magazine), Mumbai; Publisher, Parivartan Publications; Founder Member, Parivartan Sahitya Mahamandal; President, (i) Parivartan Kala Mahasangha, (ii) Dr. Babasaheb Ambedkar Foundation and (iii) Buddhist Kalawant Academy; Founder President, Budh Dhamma Parishad; works for upliftment of the handicapped, dalit, poor and weaker sections;  Played title role in a Marathi film ?Anya Yacha Pratikar? and a small role in another Marathi film ?Joshi ki Kamble?; played a role in a Marathi drama ?Ekach Pyala? and other Marathi dramas",
+	"SpouseName": "Shrimati Seema  Ramdas Athawale",
+	"id": "0",
+	"stateName": "Maharashtra",
+	"$change": "null",
+	"serialVersionUID": "-5756901754594252462"
+}
