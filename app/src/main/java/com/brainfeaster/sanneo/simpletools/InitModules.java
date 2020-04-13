@@ -13,7 +13,7 @@ public class InitModules implements IConfig  {
     public Context _con;
     public SQLiteDatabase _STdb;
     public  db _db;
-    public InitModules(Context con) {
+    public InitModules(MainActivity con) {
         _con = con;
         db dtb = new db(con, getCreateTablesSQL());
         //trigger the create queries.
